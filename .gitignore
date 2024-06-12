@@ -1,0 +1,58 @@
+# フロントエンド
+# 依存関係
+/node_modules/
+
+# ビルド出力
+/dist/
+/build/
+
+# 環境設定ファイル
+*.env
+/.vscode/
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+#バックエンド
+# 実行ファイル
+/bin/
+/vendor/
+
+# ビルド出力
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ログファイル
+*.log
+
+# その他
+.idea/
+*.swp
+*.swo
+
+# Go特有のビルドキャッシュ
+/go/bin/
+/go/pkg/
+
+# Go Modules
+/go.sum
+
+# データベース
+# データベース設定ファイル
+*.cnf
+*.ini
+
+# データベースデータディレクトリ
+/db_data/
+
+# Dockerコンテナのビルドキャッシュ
+**/node_modules/
+**/vendor/
+
+# Dockerの無視ファイル
+Dockerfile.log
+.dockerignore
